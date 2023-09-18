@@ -216,7 +216,7 @@ html,body
 }
 /* Contact page */
 .email{
-     background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0, 0.2)),
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0, 0.2)),
     url('./images/LogoF2.png');
     height: 100vh;
     background-position: center;
@@ -226,6 +226,15 @@ html,body
     align-items: center;
     scroll-snap-align: start;
 }
+.email__box{
+    background: #808080;
+    height: 90vh;
+    background-position: center;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
 }
 .email__content{
     animation-duration: 1.5s;
