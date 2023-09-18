@@ -265,15 +265,6 @@ span{
     margin-top: 10px;
     display: block;
 }
-.checkbox__container{
-    position: relative;
-    display: flex;
-}
-.checkbox-label{
-    padding:1rem;
-    color: var(--white);
-    font-size: 1rem;
-}
 @media screen and (max-width: 2000px){
     .form__wrap{
         display: flex;
