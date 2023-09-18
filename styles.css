@@ -35,7 +35,7 @@ html,body
 }
 .logoimg{
     height:50px;
-    width:88px;
+    width:50px;
 }
 .navbar__link{
     color: var(--red);
