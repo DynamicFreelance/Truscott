@@ -220,7 +220,7 @@ html,body
     url('./images/LogoF2.png');
     height: 100vh;
     background-position: center;
-    background-image: no-repeat;
+    background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
     justify-content: center;
