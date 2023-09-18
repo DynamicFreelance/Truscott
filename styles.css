@@ -151,7 +151,7 @@ html,body
 /* about us */
 .aboutUs{
     background: rgb(255,0,0, 0.7);
-    height: 70vh;
+    height: 80vh;
     background-position: center;
     background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
