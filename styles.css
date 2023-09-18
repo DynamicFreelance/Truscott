@@ -38,7 +38,7 @@ html,body
 }
 .logoimg{
     height:50px;
-    width:115px;
+    width:125px;
     margin-left:1rem;
 }
 .navbar__link{
@@ -216,16 +216,17 @@ html,body
 }
 /* Contact page */
 .email{
-    background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
-    url('./images/LogoF2.png') no-repeat center;
+     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
+    url('./images/LogoF2.png');
     height: 100vh;
     background-position: center;
     background-size: cover;
-    padding: 5rem calc((100vw - 1300px) / 2);
-    color: var(--white);
+    padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    scroll-snap-align: start;
+}
 }
 .email__content{
     animation-duration: 1.5s;
