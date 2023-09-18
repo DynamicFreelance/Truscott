@@ -19,7 +19,7 @@ html,body
 }
 /* navbar section */
 .navbar{
-    background: var(--black);
+    background: var(--white);
     height: 60px;
     padding: 0.5rem calc((50vw - 1600px) / 2);
     display: flex;
