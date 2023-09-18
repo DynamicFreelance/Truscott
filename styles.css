@@ -246,7 +246,7 @@ html,body
     font-size:clamp(1rem, 2.5vw, 1.5rem);
     padding: 0 1rem;
     margin-bottom: 2rem;
-    color: var(--red);
+    color: var(--white);
 }
 form{
     z-index: 10;
