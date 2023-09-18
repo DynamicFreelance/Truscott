@@ -27,6 +27,9 @@ html,body
     align-items: center;
     position: relative;
     width: 100%;
+    outline: var(--red);
+    outline-width: 0.4rem;
+    outline-style: outset;
 }
 .navbar__logo{
     color: var(--red);
