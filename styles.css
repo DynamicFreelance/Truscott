@@ -116,6 +116,12 @@ html,body
     align-items: center;
     scroll-snap-align: start;
 }
+@media screen and (max-width: 768px){
+    .hero{
+        background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
+        url('./images/car1.JPG');
+    }
+}
 .hero__content{
     animation-duration: 1.5s;
     animation-name: Slide;
@@ -200,6 +206,7 @@ html,body
     width:30%;
     padding: 1rem;
 }
+
 /* footer section*/
 .footer{
     padding: 5rem calc((100vw - 1100px) / 2);
