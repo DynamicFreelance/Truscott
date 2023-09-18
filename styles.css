@@ -150,15 +150,11 @@ html,body
 }
 /* about us */
 .aboutUs{
-    background: var(--red);
-    opacity: 0.7;
-    height: 100vh;
+    background: rgb(100,0,0);
+    height: 70vh;
     background-position: center;
     background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
 .about__wrapper{
     display: flex;
