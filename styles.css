@@ -162,7 +162,12 @@ html,body
     scroll-snap-align: start;
 }
 .about__wrapper{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    scroll-snap-align: start;
+    padding:1rem;
 }
 .about__wrapper h1{
     color:var(--white);
