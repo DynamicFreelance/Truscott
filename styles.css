@@ -193,11 +193,11 @@ html,body
     text-align: center;
 }
 .services{
-    margin-bottom:1rem;
-    margin-top:1rem;
+    margin-bottom:2rem;
+    margin-top:2rem;
 }
 .services__img{
-    width:10%;
+    width:30%;
     padding: 1rem;
 }
 /* footer section*/
