@@ -120,6 +120,14 @@ html,body
     .hero{
         background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
         url('./images/car1.JPG');
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        padding: 0.5rem calc((100vw - 1200px) / 2);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        scroll-snap-align: start;
     }
 }
 .hero__content{
