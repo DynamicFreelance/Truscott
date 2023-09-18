@@ -168,6 +168,7 @@ html,body
     flex-direction: column;
     scroll-snap-align: start;
     padding:1rem;
+    text-align: center;
 }
 .about__wrapper h1{
     color:var(--white);
