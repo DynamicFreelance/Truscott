@@ -206,9 +206,9 @@ html,body
     padding:1rem;
     text-align: center;
 }
-.services{
-    margin-bottom:2rem;
-    margin-top:2rem;
+.service{
+    margin-bottom:1rem;
+    margin-top:1rem;
 }
 .services__img{
     width:30%;
