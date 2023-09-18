@@ -218,7 +218,7 @@ html,body
 .email{
     background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0, 0.2)),
     url('./images/LogoF2.png');
-    height: 100vh;
+    height: 110vh;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -270,11 +270,12 @@ span{
     display: flex;
 }
 .checkbox-field{
-    width: 20%;
-    border-radius:100%;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
 }
 .checkbox-label{
-    padding:1rem;
+    margin-right:1rem;
     color: var(--white);
     font-size: 1rem;
 }
