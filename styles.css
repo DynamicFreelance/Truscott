@@ -155,6 +155,10 @@ html,body
     background-position: center;
     background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    scroll-snap-align: start;
 }
 .about__wrapper{
     display: flex;
@@ -169,21 +173,11 @@ html,body
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 .about__wrapper p{
     color:var(--black);
     font-size: clamp(0.5rem, 4vw, 1.5rem);
     margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 /* footer section*/
 .footer{
