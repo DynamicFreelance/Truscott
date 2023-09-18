@@ -105,7 +105,7 @@ html,body
 }
 /* Hero section */
 .hero{
-    background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0, 0.2)),
     url('./images/car.JPG');
     height: 100vh;
     background-position: center;
