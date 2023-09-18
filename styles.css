@@ -89,7 +89,7 @@ html,body
         top: 0;
         right: -100%;
         z-index:100;
-        background-color: var(--black);
+        background-color: var(--whit);
         transition: all 0.2s ease-in-out;
     }
     .navbar__link{
