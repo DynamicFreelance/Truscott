@@ -65,66 +65,7 @@ html,body
     top: 20px;
     right: 20px;
 }
-.mouse-scroll h2{
-    color: var(--lightbrown);
-    font-size: 18px;
-    rotate: -90deg;
-    position: absolute;
-    align-items: center;
-    justify-content:center;
-    bottom: 35.5%;
-    left: -146%;
-}
-.mouse-scroll{
-    width: 2.1em;
-    height: 4em;
-    border: solid 3px var(--lightbrown);
-    border-radius:30px;
-    position: relative;
-    rotate: 90deg;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 1rem;
-    margin-top: 4.5rem;
-    bottom: 200%;
-    left: 44%;
-    animation: pulse 3.5s infinite;
-}
-.mouse-scroll::before{
-    content: '';
-    width: 0.6em;
-    height: 0.6em;
-    border-radius: 50%;
-    background: var(--lightbrown);
-    position: absolute;
-    left: 50%;
-    translateX: -50%;
-    animation: scroll 3.5s infinite;
-    rotate: 90deg;
-}
 /* Animation */
-@keyframes scroll {
-    from {
-    bottom: 80%;
-    opacity: 1;
-    }
-    to {
-    bottom: 20%;
-    opacity: 0;
-    }
-}
-@keyframes pulse {
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0.7;
-    }
-    100%{
-        opacity: 0;
-    }
-}
 @keyframes Slide{
     from {
         margin-top: 100%;
@@ -161,13 +102,6 @@ html,body
     #check:checked ~ .navbar__menu {right: 0;}
 }
 /* Hero section */
-.Hero__slider{
-    display: grid;
-    grid-template-columns: 100% 100% 100%;
-    scroll-snap-type: x mandatory;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
 .hero{
     background: #808080;
     height: 100vh;
