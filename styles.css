@@ -103,6 +103,7 @@ html,body
     animation: scroll 3.5s infinite;
     rotate: 90deg;
 }
+/* Animation */
 @keyframes scroll {
     from {
     bottom: 80%;
@@ -122,6 +123,16 @@ html,body
     }
     100%{
         opacity: 0;
+    }
+}
+@keyframes Slide{
+    from {
+        margin-top: 100%;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0%;
+        opacity: 1;
     }
 }
 @media screen and (max-width: 768px){
