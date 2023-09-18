@@ -47,7 +47,8 @@ html,body
     padding: 0rem 0.5rem;
 }
 .navbar__link:hover{
-    color: var(--white);
+    background: #808080;
+    opacity: 0.6;
 }
 .open-menu, .close-menu{
     position: absolute;
