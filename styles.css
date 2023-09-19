@@ -81,7 +81,7 @@ html,body
 @keyframes PageLoadOut{
     from {
         margin-top: 100%;
-        display: flex;
+        display:flex;
     }
     to{
         margin-top: 0%;
@@ -118,7 +118,7 @@ html,body
     animation-delay: 1s;
     animation-duration: 2.5s;
     animation-name: PageLoadOut;
-    margin-bottom: 120vh;
+    height:0;
 }
 .Intro__container{
     background: var(--black);
