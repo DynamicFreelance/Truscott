@@ -78,6 +78,17 @@ html,body
         opacity: 1;
     }
 }
+@keyframes PageLoadOut{
+    from {
+        margin-top: 0%;
+        opacity: 1;
+    }
+    to{
+        margin-top: 100%;
+        opacity: 0;
+    }
+}
+        
 @media screen and (max-width: 768px){
     .navbar__menu{
         flex-direction: column;
@@ -102,6 +113,22 @@ html,body
     }
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
+}
+.Intro{
+    animation-delay: 4s;
+    animation-duration: 2.5s;
+    animation-name: PageLoadOut;
+}
+.Intro__container{
+    background: var(--black);
+    height: 110vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
 }
 /* Hero section */
 .hero{
