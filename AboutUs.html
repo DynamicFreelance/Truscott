@@ -1,1 +1,93 @@
-h
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truscott Electric Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        ::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="/" class="navbar__logo"><img src="./images/LogoF1.png" alt="Truscott" class="logoimg"/></a>
+        <input type="checkbox" id="check">
+        <div class="navbar__menu">
+            <a href="/" class="navbar__link">Home</a>
+            <a href="/AboutUs.html" class="navbar__link">About us</a>
+            <a href="/Services.html" class="navbar__link">Services</a>
+            <a href="/Contacts.html" class="navbar__link">Contacts</a>
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+        </div>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+    </nav>
+     <!--About us-->
+ <div class="aboutUs reveal">
+   <div class="about__wrapper">
+      <h1>Don't become a statistic</h1>
+      <p>We install cutting edge technology in your residence or workplace that will not only provide better stability 
+       and reliability to your power solutions, but will also give you the peace of mind that you
+       are reducing your impact on the environment.</p>
+      <a href="/Contacts.html" class="button">Get a Quote Today</a>
+   </div>
+ </div>
+  <!--Footer section-->
+    <div id="footer" class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>Truscott Electric Solutions</h1>
+                <p>Copyright © 2022 Truscott Electric Solution and Technology - All Rights Reserved.</p>
+                <p id="phone">416-876-4352</p>
+                <p id="email">chrisdm.tec@gmail.com</p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Contact Us</h2>
+                <a href="/Contacts.html" class="footer__link">Contact</a>
+                <a href="/Contacts.html" class="footer__link">Support</a>
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a href="/Contacts.html" class="footer__link">Instagram</a>
+                <a href="/Contacts.html" class="footer__link">Youtube</a>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Services</h2>
+                <a href="/Services.html" class="footer__link">Pricing</a>
+                <a href="/Services.html" class="footer__link">Features</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+                
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
