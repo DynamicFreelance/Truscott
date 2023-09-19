@@ -70,12 +70,12 @@ html,body
 /* Animation */
 @keyframes Slide{
     from {
-        margin-top: 100%;
-        opacity: 0;
+        margin-top: 0%;
+        display: flex;
     }
     to{
-        margin-top: 0%;
-        opacity: 1;
+        margin-top: 100%;
+        display: none;
     }
 }
 @keyframes PageLoadOut{
