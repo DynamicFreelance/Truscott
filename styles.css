@@ -80,11 +80,11 @@ html,body
 }
 @keyframes PageLoadOut{
     from {
-        margin-top: 0%;
+        margin-top: 100%;
         display: flex;
     }
     to{
-        margin-top: 100%;
+        margin-top: 0%;
         display: none;
     }
 }
