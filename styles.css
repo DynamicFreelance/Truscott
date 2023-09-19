@@ -115,9 +115,10 @@ html,body
     #check:checked ~ .navbar__menu {right: 0;}
 }
 .Intro{
-    animation-delay: 4s;
+    animation-delay: 0s;
     animation-duration: 2.5s;
     animation-name: PageLoadOut;
+    display: none;
 }
 .Intro__container{
     background: var(--black);
