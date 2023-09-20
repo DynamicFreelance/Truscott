@@ -52,7 +52,7 @@ html,body
 }
 .open-menu, .close-menu{
     position: absolute;
-    background: var(--red);
+    color: var(--red);
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
