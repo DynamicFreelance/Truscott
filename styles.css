@@ -91,7 +91,7 @@ html,body
         right: -100%;
         z-index:100;
         background-color: var(--white);
-        transition: all 0.2s ease-in-out;
+        transition: all 1s ease-in-out;
     }
     .navbar__link{
         padding:10px;
