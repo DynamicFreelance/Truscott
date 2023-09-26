@@ -229,26 +229,13 @@ html,body
     scroll-snap-align: start;
     padding:2rem;
     text-align: center;
-    width:50%;
-}
-@media screen and (max-width: 768px){
-    .services__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    scroll-snap-align: start;
-    padding:2rem;
-    text-align: center;
-    width:100%;
-    }
 }
 .service{
     margin-bottom:1rem;
     margin-top:1rem;
 }
 .services__img{
-    width:30%;
+    width:50px;
     padding: 1rem;
 }
 /* Contact page */
