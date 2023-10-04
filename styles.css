@@ -207,6 +207,7 @@ html,body
     scroll-snap-align: start;
     padding:1.5rem;
     text-align: center;
+    width:50%;
 }
 .info__container h1{
     color:var(--red)
@@ -240,6 +241,8 @@ html,body
     .service{
         width:100vw;
     }
+    .info__container{
+        width:100vw;
 }
 .services__img{
     width:250px;
