@@ -211,6 +211,9 @@ html,body
     padding:1rem;
     box-shadow: 10px 10px 20px rgba(255, 56, 56, 0.6);
 }
+.highlight h1{
+    padding:1rem 1rem;
+}
 .info__container{
     display: flex;
     justify-content: center;
