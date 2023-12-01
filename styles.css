@@ -213,6 +213,7 @@ html,body
 }
 .highlight h1{
     padding:1rem 1rem;
+    margin-bottom:1rem;
 }
 .info__container{
     display: flex;
