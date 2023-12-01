@@ -211,10 +211,6 @@ html,body
     padding:1rem;
     box-shadow: 10px 10px 20px rgba(255, 56, 56, 0.6);
 }
-.highlight h1{
-    padding:1rem 1rem;
-    margin-bottom:1rem;
-}
 .info__container{
     display: flex;
     justify-content: center;
@@ -226,7 +222,7 @@ html,body
     width:75vw;
 }
 .info__container h1{
-    color:var(--red)
+    color:var(--red);
     font-size: clamp(1.5rem, 8vw, 2.5rem);
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -246,6 +242,13 @@ html,body
     scroll-snap-align: start;
     padding:2rem;
     text-align: center;
+}
+.services__container h1{
+    color:var(--red);
+    font-size: clamp(1.5rem, 8vw, 2.5rem);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
 }
 .service{
     margin-bottom:1rem;
