@@ -343,6 +343,10 @@ span{
     }
 }
 /* footer section*/
+.Dtech__tag{
+    width: 50%;
+    height: 90%;
+}
 .footer{
     padding: 5rem calc((100vw - 1100px) / 2);
     display: grid;
@@ -390,6 +394,10 @@ span{
     color:var(--blue);
 }
 @media screen and (max-width: 820px) {
+    .Dtech__tag{
+    width: 50%;
+    height: 50%;
+}
     .footer__wrapper{
         display:flex;
         justify-content:center;
