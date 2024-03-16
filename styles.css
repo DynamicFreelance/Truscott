@@ -266,6 +266,16 @@ html,body
         padding:1rem;
         box-shadow: 10px 10px 20px rgba(255, 56, 56, 0.9);
     }
+    .services__container h1{
+        font-size: clamp(1.8rem, 8vw, 2.8rem);
+    }
+    .service__container p{
+        font-size: 1.3rem;
+    }
+    .services__img{
+        width:260px;
+        padding: 1rem;
+    }
 }
 @media screen and (max-width: 768px){
     .service{
