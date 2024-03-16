@@ -268,7 +268,7 @@ html,body
         box-shadow: 10px 10px 20px rgba(255, 56, 56, 0.9);
     }
     .services__container h1{
-        font-size: clamp(1.8rem, 8vw, 2.8rem);
+        font-size: 1.8rem;
     }
     .service__container p{
         font-size: 1.3rem;
@@ -289,6 +289,7 @@ html,body
 .services__img{
     width:250px;
     padding: 1rem;
+    transition: 0.3s ease;
 }
 /* Contact page */
 .email{
