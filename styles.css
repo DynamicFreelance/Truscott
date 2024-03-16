@@ -259,8 +259,13 @@ html,body
     padding:1.5rem;
 }
 .service:hover{
-    padding:2rem;
-    width: 51vw;
+    width: 60vw;
+    .highlight{
+        width:100%;
+        height:100%;
+        padding:1rem;
+        box-shadow: 10px 10px 20px rgba(255, 56, 56, 0.9);
+    }
 }
 @media screen and (max-width: 768px){
     .service{
