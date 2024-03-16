@@ -143,6 +143,7 @@ html,body
     font-size: clamp(3rem, 8vw, 7rem);
     text-transform: uppercase;
     margin-bottom: 0.5rem; 
+    transition: 0.3s ease;
 }
 .hero__content h1:hover{
     font-size: clamp(3.3rem, 8vw, 7.3rem);
