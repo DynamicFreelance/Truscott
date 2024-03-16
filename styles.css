@@ -144,7 +144,7 @@ html,body
     text-transform: uppercase;
     margin-bottom: 0.5rem; 
 }
-.hero__content h1{
+.hero__content h1:hover{
     font-size: clamp(3.3rem, 8vw, 7.3rem);
     text-transform: uppercase;
     margin-bottom: 0.5rem; 
