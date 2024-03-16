@@ -164,6 +164,8 @@ html,body
 }
 .button:hover{
     background: var(--black);
+    font-size: 1.3rem;
+    padding: 1.3rem 3.3rem;
 }
 /* about us */
 .aboutUs{
@@ -255,6 +257,10 @@ html,body
     margin-top:1rem;
     width: 50vw;
     padding:1.5rem;
+}
+.service:hover{
+    padding:2rem;
+    width: 51vw;
 }
 @media screen and (max-width: 768px){
     .service{
